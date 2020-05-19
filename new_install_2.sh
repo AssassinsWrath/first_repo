@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Thanks to Kev Quirk for the script which I have modified from https://kevq.uk/how-to-create-a-simple-install-script-in-ubuntu/.
+
 # Symlink for config files
 #mv ~/.config ~/.configOLD
 #ln -s ~/Nextcloud/Config/ ~/.config
