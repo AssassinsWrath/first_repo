@@ -39,7 +39,7 @@ apt install remmina
 
 # Setup fancy command prompt
 wget https://raw.githubusercontent.com/AssassinsWrath/first_repo/master/fancy-bash-prompt.sh
-mv fancy-bash-promt.sh .fancy-bash-promt.sh
+mv fancy-bash-promt.sh .fancy-bash-prompt.sh
 echo "source ~/.fancy-bash-promt.sh" >> ~/.bashrc
 echo "neofetch" >> ~/.bashrc
 
