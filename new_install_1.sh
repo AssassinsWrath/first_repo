@@ -49,6 +49,9 @@ mv fancy-bash-prompt-root.sh /root/.fancy-bash-prompt-root.sh
 echo "source ~/.fancy-bash-prompt-root.sh" >> /root/.bashrc
 echo "neofetch" >> /root/.bashrc
 
+#Setup lightdm Aether greeter.
+#need to create a script for this. Otherwise go to https://github.com/NoiSek/Aether
+
 # Install snap packages
 #snap install spotify
 #snap install gitkraken
