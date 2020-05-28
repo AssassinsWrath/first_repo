@@ -37,11 +37,17 @@ apt install steam-installer
 apt install steam-devices
 apt install remmina
 
-# Setup fancy command prompt
+# Setup fancy command prompt for user
 wget https://raw.githubusercontent.com/AssassinsWrath/first_repo/master/fancy-bash-prompt.sh
-mv fancy-bash-promt.sh .fancy-bash-prompt.sh
+mv fancy-bash-prompt.sh .fancy-bash-prompt.sh
 echo "source ~/.fancy-bash-prompt.sh" >> ~/.bashrc
 echo "neofetch" >> ~/.bashrc
+
+#Setup fancy commant prompt for root
+wget https://raw.githubusercontent.com/AssassinsWrath/first_repo/master/fancy-bash-prompt-root.sh
+mv fancy-bash-prompt-root.sh /root/.fancy-bash-prompt-root.sh
+echo "source ~/.fancy-bash-prompt-root.sh" >> /root/.bashrc
+echo "neofetch" >> /root/.bashrc
 
 # Install snap packages
 #snap install spotify
