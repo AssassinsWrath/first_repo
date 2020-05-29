@@ -2,6 +2,10 @@
 # Designed for any resolution
 # Designed by vinceliuice 
 # Original Source : https://github.com/vinceliuice/grub2-themes
+#Store the theme folder (ubuntudde) at /boot/grub/themes/.
+#Then add the below line (uncommented) to /etc/default/grub
+#GRUB_THEME=/boot/grub/themes/ubuntudde/theme.txt
+
 
 # Global Property
 title-text: ""
