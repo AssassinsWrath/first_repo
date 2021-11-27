@@ -3,6 +3,7 @@
 # Thanks to Kev Quirk for the script which I have modified from https://kevq.uk/how-to-create-a-simple-install-script-in-ubuntu/.
  
 # Add additional repositories
+add-apt-repository ppa:lutris-team/lutris
 #apt-add-repository ppa:tista/adapta # Adapta theme repo
 #add-apt-repository ppa:papirus/papirus # Papirus icon theme repo
 #add-apt-repository ppa:agornostal/ulauncher # Ulauncher repo
